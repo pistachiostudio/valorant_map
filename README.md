@@ -1,16 +1,20 @@
 # Valorant Map Adobe Illustrator path
 
-## Font Install
+## Fonts
+- 左上のマップ名フォント: [https://www.dafont.com/valorant.font](https://www.dafont.com/valorant.font)
+- エリア名: 游ゴシック
 
-[https://www.dafont.com/valorant.font](https://www.dafont.com/valorant.font)
+## PDF
+- PDFは.ai内に埋め込んでいます
 
 ## Layer
+- Area Name
+- Map
+  - plant area
+  - objects
+  - base map
 
-- plant area
-- objects
-- base map
-
-## Sample Map
+## Samples
 
 ![Ascent](https://github.com/pistachiostudio/valorant_map/blob/main/for_thumbs/ascent.png)
 
@@ -28,4 +32,5 @@
 
 ## You can
 
-You can use this as you like!
+You can use this as you like!  
+どのように使用していただいてももちろん問題ございません。  
