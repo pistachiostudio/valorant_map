@@ -7,4 +7,3 @@
 - plant area
 - objects
 - base map
-
