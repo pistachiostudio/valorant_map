@@ -1,11 +1,11 @@
 # Valorant Map Adobe Illustrator path
 
-Valorantのマップのパスデータです。パッチで地形やオブジェクトが変わっている場所などあるかもしれません。
-よろしければご指摘いただければと思います。もちろんどのように使用していただいても問題ございません。  
+Valorantのマップのパスデータです。パッチで地形やオブジェクトが変わっている場所などあるかもしれませんができるだけ直していこうと思っています。
+もちろんご自由に、どのように使用していただいても問題ございません。  
 
 ## Fonts
 - 左上のマップ名フォント: [https://www.dafont.com/valorant.font](https://www.dafont.com/valorant.font)
-- エリア名: 源ノ角ゴシック (Bold): [https://github.com/adobe-fonts/source-han-sans/blob/master/README-JP.md](https://github.com/adobe-fonts/source-han-sans/blob/master/README-JP.md)  
+- エリア名のフォント: 源ノ角ゴシック (Bold) [https://github.com/adobe-fonts/source-han-sans/blob/master/README-JP.md](https://github.com/adobe-fonts/source-han-sans/blob/master/README-JP.md)  
   - Variable Fontではないものを使用しています
 
 ## PDF
