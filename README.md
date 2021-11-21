@@ -5,7 +5,8 @@ Valorantのマップのパスデータです。パッチで地形やオブジェ
 
 ## Fonts
 - 左上のマップ名フォント: [https://www.dafont.com/valorant.font](https://www.dafont.com/valorant.font)
-- エリア名: 游ゴシック
+- エリア名: 源ノ角ゴシック (Bold): [https://github.com/adobe-fonts/source-han-sans/blob/master/README-JP.md](https://github.com/adobe-fonts/source-han-sans/blob/master/README-JP.md)  
+  - Variable Fontではないものを使用しています
 
 ## PDF
 - PDFは.ai内に埋め込んでいます
