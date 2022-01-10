@@ -18,6 +18,10 @@ Valorantのマップのパスデータです。パッチで地形やオブジェ
   - objects
   - base map
 
+## Update
+### 2022.1.11
+- パッチノート4.0.1 (ネオン登場)のブリーズとバインドのリワークに対応
+
 ## Samples
 
 ![Ascent](https://github.com/pistachiostudio/valorant_map/blob/main/for_thumbs/ascent.png)
