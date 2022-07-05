@@ -5,12 +5,18 @@
 基本的には一般的な名称を採用しています。
 
 ## Fonts
+
 - 左上のマップ名フォント: [https://www.dafont.com/valorant.font](https://www.dafont.com/valorant.font)
 - エリア名のフォント: 源ノ角ゴシック (Heavy) [https://github.com/adobe-fonts/source-han-sans/blob/master/README-JP.md](https://github.com/adobe-fonts/source-han-sans/blob/master/README-JP.md)
   - Variable Fontではないものを使用しています
+  
+## main.ai
+
+こちらに全マップ分のデータが入っています。
 
 ## PDF
-- PDFは.ai内に埋め込んでいます
+
+- PDFは.ai内に埋め込んでいます。
 
 ## なぜパスデータをやめたか
 
@@ -36,8 +42,7 @@
 
 ### 2022.7.5
 
-- Pearlに対応しきれずパスデータを潔く諦めた
-
+- 精神的にPearlに対応しきれずパスデータを潔く諦めた
 
 ### 2022.3.8
 
