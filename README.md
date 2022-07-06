@@ -4,19 +4,38 @@
 
 基本的には一般的な名称を採用しています。
 
+## 簡単な使い方
+
+#### 1. Clone
+
+```$ git clone https://github.com/pistachiostudio/valorant_map.git```
+
+#### 2. base.pyを実行
+
+[API](https://dash.valorant-api.com/)から各マップの最新のベースマップを取得し、rawディレクトリに保存します。(上書きします)
+
+```
+$ python base.py
+Downloaded ascent.png
+Downloaded bind.png
+Downloaded haven.png
+Downloaded split.png
+Downloaded icebox.png
+Downloaded breeze.png
+Downloaded fracture.png
+Downloaded pearl.png
+- base map updated! -
+```
+
+#### 3. main.aiで好きにする
+
+rawディレクトリのベース画像をそれぞれレイヤーごとでリンクしています。再リンクが必要な場合は適宜お願いします。
+
 ## Fonts
 
 - 左上のマップ名フォント: [https://www.dafont.com/valorant.font](https://www.dafont.com/valorant.font)
 - エリア名のフォント: 源ノ角ゴシック (Heavy) [https://github.com/adobe-fonts/source-han-sans/blob/master/README-JP.md](https://github.com/adobe-fonts/source-han-sans/blob/master/README-JP.md)
   - Variable Fontではないものを使用しています
-  
-## main.ai
-
-こちらに全マップ分のデータが入っています。
-
-## PDF
-
-- PDFは.ai内に埋め込んでいます。
 
 ## なぜパスデータをやめたか
 
@@ -40,15 +59,19 @@
 
 ## Update
 
-### 2022.7.5
+#### 2022.7.6
+
+- APIから一括で画像を取って来るbase.pyを追加
+
+#### 2022.7.5
 
 - 精神的にPearlに対応しきれずパスデータを潔く諦めた
 
-### 2022.3.8
+#### 2022.3.8
 
 - パッチノート4.0.3(ヨルのバフ、アストラナーフ他)のアイスボックスリワークにかなり適当に対応
 
-### 2022.1.11
+#### 2022.1.11
 
 - パッチノート4.0.1(ネオン登場)のブリーズとバインドのリワークに対応
 
