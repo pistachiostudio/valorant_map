@@ -8,13 +8,15 @@
 
 #### 1. Clone
 
-```$ git clone https://github.com/pistachiostudio/valorant_map.git```
+```bash
+$ git clone https://github.com/pistachiostudio/valorant_map.git
+```
 
 #### 2. base.pyを実行
 
 [API](https://dash.valorant-api.com/)から各マップの最新のベースマップを取得し、rawディレクトリに保存します。(上書きします)
 
-```
+```shell
 $ python base.py
 Downloaded ascent.png
 Downloaded bind.png
@@ -58,6 +60,10 @@ rawディレクトリのベース画像をそれぞれレイヤーごとでリ�
 
 
 ## Update
+
+#### 2022.10.24
+
+- パッチ5.0.8のFractureのリワークに対応
 
 #### 2022.9.21
 
