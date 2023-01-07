@@ -14,7 +14,8 @@ $ git clone https://github.com/pistachiostudio/valorant_map.git
 
 #### 2. base.pyを実行
 
-[API](https://dash.valorant-api.com/)から各マップの最新のベースマップを取得し、rawディレクトリに保存します。(上書きします)
+- [Requests](https://requests.readthedocs.io/en/latest/)が必要です。pipもしくはPoetryでインストールしてください。
+- [API](https://dash.valorant-api.com/)から各マップの最新のベースマップを取得し、rawディレクトリに保存します。(上書きします)
 
 ```shell
 $ python base.py
@@ -32,6 +33,14 @@ Downloaded pearl.png
 #### 3. main.aiで好きにする
 
 rawディレクトリのベース画像をそれぞれレイヤーごとでリンクしています。再リンクが必要な場合は適宜お願いします。
+
+#### 4. レイヤーごとでにPNGを出力
+
+Photoshopと違い、Illustratorにはレイヤーごとの書き出し機能がないので同封のスクリプト `export.jsx` を使用します。
+
+- `Illustrator > ファイル > スクリプト > その他のスクリプト` から `export.jsx` を選択
+- 書き出し先を選択。
+- レイヤー(マップ)ごとに1500pxのPNGが出力されます。
 
 ## Fonts
 

@@ -1,5 +1,5 @@
 import os
-import  urllib.request
+import urllib.request
 
 # 今のところ各マップのURLは固定っぽいのでこれでいく。
 # URLが変更されることが確認されたらちゃんとjsonから取って来るようにする。
