@@ -27,6 +27,7 @@ Downloaded icebox.png
 Downloaded breeze.png
 Downloaded fracture.png
 Downloaded pearl.png
+Downloaded lotus.png
 - base map updated! -
 ```
 
@@ -66,9 +67,14 @@ Photoshopと違い、Illustratorにはレイヤーごとの書き出し機能が
 - [Breeze](https://media.valorant-api.com/maps/2fb9a4fd-47b8-4e7d-a969-74b4046ebd53/displayicon.png)
 - [Fracture](https://media.valorant-api.com/maps/b529448b-4d60-346e-e89e-00a4c527a405/displayicon.png)
 - [Pearl](https://media.valorant-api.com/maps/fd267378-4d1d-484f-ff52-77821ed10dc2/displayicon.png)
+- [Lotus](https://media.valorant-api.com/maps/2fe4ed3a-450a-948b-6d6b-e89a78e680a9/displayicon.png)
 
 
 ## Update
+
+#### 2023.1.11
+
+- パッチ6.0のLotus登場とSplitリワークに対応
 
 #### 2022.10.24
 
@@ -111,3 +117,5 @@ Photoshopと違い、Illustratorにはレイヤーごとの書き出し機能が
 ![Fracture](https://github.com/pistachiostudio/valorant_map/blob/main/for_thumbs/fracture.png)
 
 ![Pearl](https://github.com/pistachiostudio/valorant_map/blob/main/for_thumbs/pearl.png)
+
+![Lotus](https://github.com/pistachiostudio/valorant_map/blob/main/for_thumbs/lotus.png)
