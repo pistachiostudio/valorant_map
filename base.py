@@ -1,9 +1,8 @@
 import os
-import urllib.request
 
-# 今のところ各マップのURLは固定っぽいのでこれでいく。
-# URLが変更されることが確認されたらちゃんとjsonから取って来るようにする。
-map_url = {
+import requests
+
+MAP_URLS = {
     'ascent': 'https://media.valorant-api.com/maps/7eaecc1b-4337-bbf6-6ab9-04b8f06b3319/displayicon.png',
     'bind': 'https://media.valorant-api.com/maps/2c9d57ec-4431-9c5e-2939-8f9ef6dd5cba/displayicon.png',
     'haven': 'https://media.valorant-api.com/maps/2bee0dc9-4ffe-519b-1cbd-7fbe763a6047/displayicon.png',
@@ -13,10 +12,27 @@ map_url = {
     'fracture': 'https://media.valorant-api.com/maps/b529448b-4d60-346e-e89e-00a4c527a405/displayicon.png',
     'pearl': 'https://media.valorant-api.com/maps/fd267378-4d1d-484f-ff52-77821ed10dc2/displayicon.png',
     'lotus': 'https://media.valorant-api.com/maps/2fe4ed3a-450a-948b-6d6b-e89a78e680a9/displayicon.png'
-    }
+}
 
-for key, value in map_url.items():
-    urllib.request.urlretrieve(value, os.path.join('raw', key + '.png'))
-    print('Downloaded ' + key + '.png')
+class ImageDownloader:
+    def __init__(self, urls, folder='raw'):
+        self.urls = urls
+        self.folder = folder
 
-print('- base map updated! -')
+    def download_images(self):
+        for key, url in self.urls.items():
+            try:
+                response = requests.get(url)
+                if response.status_code == 200:
+                    with open(os.path.join(self.folder, f"{key}.png"), "wb") as f:
+                        f.write(response.content)
+                    print(f"\033[32mDownloaded {key}.png\033[0m")
+                else:
+                    print(f"\033[31mFailed to download {key}.png. Status code: {response.status_code}\033[0m")
+            except requests.exceptions.RequestException as e:
+                print(f"\033[31mFailed to download {key}.png. Error: {e}\033[0m")
+
+
+downloader = ImageDownloader(MAP_URLS)
+downloader.download_images()
+print('\033[36m- Base maps updated! -\033[0m')
