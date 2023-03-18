@@ -2,7 +2,7 @@ import os
 
 import requests
 
-MAP_URLS = {
+MAP_URLS: dict[str, str] = {
     'ascent': 'https://media.valorant-api.com/maps/7eaecc1b-4337-bbf6-6ab9-04b8f06b3319/displayicon.png',
     'bind': 'https://media.valorant-api.com/maps/2c9d57ec-4431-9c5e-2939-8f9ef6dd5cba/displayicon.png',
     'haven': 'https://media.valorant-api.com/maps/2bee0dc9-4ffe-519b-1cbd-7fbe763a6047/displayicon.png',
@@ -15,22 +15,22 @@ MAP_URLS = {
 }
 
 class ImageDownloader:
-    def __init__(self, urls, folder='raw'):
+    def __init__(self, urls: dict[str, str], folder: str = 'raw') -> None:
         self.urls = urls
         self.folder = folder
 
-    def download_images(self):
+    def download_images(self) -> None:
         for key, url in self.urls.items():
             try:
                 response = requests.get(url)
                 if response.status_code == 200:
                     with open(os.path.join(self.folder, f"{key}.png"), "wb") as f:
                         f.write(response.content)
-                    print(f"\033[32mDownloaded {key}.png\033[0m")
+                    print(f"✅\033[32mDownloaded {key}.png\033[0m")
                 else:
                     print(f"\033[31mFailed to download {key}.png. Status code: {response.status_code}\033[0m")
             except requests.exceptions.RequestException as e:
-                print(f"\033[31mFailed to download {key}.png. Error: {e}\033[0m")
+                print(f"⚠\033[31mFailed to download {key}.png. Error: {e}\033[0m")
 
 
 downloader = ImageDownloader(MAP_URLS)
