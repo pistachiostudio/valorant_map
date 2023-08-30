@@ -14,20 +14,21 @@ $ git clone https://github.com/pistachiostudio/valorant_map.git
 
 #### 2. base.pyを実行
 
-- [Requests](https://requests.readthedocs.io/en/latest/)が必要です。pipもしくはPoetryでインストールしてください。
+- [Requests](https://requests.readthedocs.io/en/latest/)が必要です。pipもしくはRyeでインストールしてください。
 - [API](https://dash.valorant-api.com/)から各マップの最新のベースマップを取得し、rawディレクトリに保存します。(上書きします)
 
 ```shell
 $ python base.py
-Downloaded ascent.png
-Downloaded bind.png
-Downloaded haven.png
-Downloaded split.png
-Downloaded icebox.png
-Downloaded breeze.png
-Downloaded fracture.png
-Downloaded pearl.png
-Downloaded lotus.png
+✔Downloaded ascent.png
+✔Downloaded bind.png
+✔Downloaded haven.png
+✔Downloaded split.png
+✔Downloaded icebox.png
+✔Downloaded breeze.png
+✔Downloaded fracture.png
+✔Downloaded pearl.png
+✔Downloaded lotus.png
+✔Downloaded sunset.png
 - base map updated! -
 ```
 
@@ -71,6 +72,10 @@ Photoshopと違い、Illustratorにはレイヤーごとの書き出し機能が
 
 
 ## Update
+
+#### 2023.8.30
+
+- パッチ7.04のSunsetの登場とBreezeのリワークに対応
 
 #### 2023.6.21
 
@@ -123,3 +128,6 @@ Photoshopと違い、Illustratorにはレイヤーごとの書き出し機能が
 ![Pearl](https://github.com/pistachiostudio/valorant_map/blob/main/for_thumbs/pearl.png)
 
 ![Lotus](https://github.com/pistachiostudio/valorant_map/blob/main/for_thumbs/lotus.png)
+
+![Sunset](https://github.com/pistachiostudio/valorant_map/blob/main/for_thumbs/sunset.png)
+
