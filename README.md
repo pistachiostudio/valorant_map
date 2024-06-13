@@ -29,6 +29,7 @@ $ python base.py
 ✔Downloaded pearl.png
 ✔Downloaded lotus.png
 ✔Downloaded sunset.png
+✔Downloaded abyss.png
 - base map updated! -
 ```
 
@@ -70,9 +71,14 @@ Photoshopと違い、Illustratorにはレイヤーごとの書き出し機能が
 - [Pearl](https://media.valorant-api.com/maps/fd267378-4d1d-484f-ff52-77821ed10dc2/displayicon.png)
 - [Lotus](https://media.valorant-api.com/maps/2fe4ed3a-450a-948b-6d6b-e89a78e680a9/displayicon.png)
 - [Sunset](https://media.valorant-api.com/maps/92584fbe-486a-b1b2-9faa-39b0f486b498/displayicon.png)
+- [Abyss](https://media.valorant-api.com/maps/224b0a95-48b9-f703-1bd8-67aca101a61f/displayicon.png)
 
 
 ## Update
+
+#### 2023.8.30
+
+- パッチ8.11のAbyssの登場に対応
 
 #### 2023.8.30
 
@@ -132,3 +138,4 @@ Photoshopと違い、Illustratorにはレイヤーごとの書き出し機能が
 
 ![Sunset](https://github.com/pistachiostudio/valorant_map/blob/main/for_thumbs/sunset.png)
 
+![Abyss](https://github.com/pistachiostudio/valorant_map/blob/main/for_thumbs/abyss.png)
